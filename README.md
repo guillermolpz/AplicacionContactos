@@ -8,4 +8,6 @@ El repositorio esta se comparte la aplicación para los que quieren realizar alg
 
 ## Capturas de la aplicacion
 
-|![picture](1.png = 100x20)|![picture](2.png = 100x20)|![picture](2.png = 100x20)
+![](1.png | width=100)
+![](2.png | width=100)
+![](2.png | 100x20)
