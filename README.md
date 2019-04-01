@@ -1,4 +1,4 @@
-# Apliacion de contactos en Android
+﻿# Apliacion de contactos en Android
 
 > **Nota** Esta aplicación agenda de contactos es un ejemplo, en el cual se busca mostrar como crear un CRUD en java utilizando SQLite, en el cual se pude crear contacto, editar contacto y eliminar contacto.
 
@@ -8,4 +8,4 @@ El repositorio esta se comparte la aplicación para los que quieren realizar alg
 
 ## Capturas de la aplicacion
 
-|![picture](1.png)|![picture](2.png)|![picture](2.png)
+|![picture](1.png = =100x20)|![picture](2.png = =100x20)|![picture](2.png = =100x20)
