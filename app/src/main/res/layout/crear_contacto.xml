@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/addphoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"/>
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_below="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_centerHorizontal="true"
+            android:ems="10"/>
+        <EditText
+            android:id="@+id/edtEdad"
+            android:layout_below="@+id/edtNombre"
+            android:hint="Edad"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtTelefono"
+            android:layout_below="@+id/edtEdad"
+            android:hint="2362490876"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_below="@+id/edtTelefono"
+            android:layout_centerHorizontal="true"
+            android:minWidth="160dp"
+            android:text="Guardar"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
